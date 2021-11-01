@@ -16,8 +16,7 @@ time
 ### Overview
 This project uses an end-to-end trainable deep neural network model for classifying videos in to violent and non-violent ones. The block diagram of the proposed model is illustrated in figure. The network consists of a series of convolutional layers followed by max pooling operations for extracting discriminant features and *convolutional long short memory* (convLSTM) for encoding the frame level changes that characterizes violent scenes, existing in the video.
 
-The code to train the model can be found in the ***Violence_Detection.ipynb*** notebook, and the code for loading the saved model and predicting the violence in videos can be found 
-in ***Test_Video.ipynb*** notebook
+The code to train the model can be found in the ***Violence_Detection.ipynb*** notebook, and the code for testing videos can be found in ***Test_Video.ipynb*** notebook
 
 <img width="" height="200" alt="2021-03-13 (2)" src="https://user-images.githubusercontent.com/55359898/111031759-20969180-842f-11eb-83e8-71bd67bcda05.png">
 
